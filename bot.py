@@ -66,7 +66,6 @@ To get started, make this bot an admin in a chat, and then type: \n/premium \nin
 Keep this chat open. Status messages and command responses from the bot will be sent here.\n
 """
 )
-    
     await context.bot.send_message(chat_id=chat_id, text=message)
     return
 
